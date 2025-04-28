@@ -1,0 +1,44 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#hoverDiv {
+  padding: 20px;
+  background-color: #f0f0f0;
+  transition: transform 0.3s;
+}
+
+#secretArea {
+  padding: 15px;
+  background-color: #e0e0e0;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.image-gallery {
+  margin: 20px 0;
+}
+
+.accordion-header {
+  background-color: #eee;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.accordion-content {
+  display: none;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+input {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+  width: 100%;
+  max-width: 300px;
+}
